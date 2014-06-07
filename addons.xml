@@ -2,7 +2,7 @@
 <addons>
 <addon id="service.tinyhtpc.switch"
        name="PiPUB Power switch."
-       version="1.0.0"
+       version="1.0.1"
        provider-name="TinyHTPC.co.nz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

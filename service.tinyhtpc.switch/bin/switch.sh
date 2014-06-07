@@ -13,7 +13,7 @@ echo "out" > /sys/class/gpio/gpio$GPIOpin2/direction
 echo "1" > /sys/class/gpio/gpio$GPIOpin2/value
 while [ 1 = 1 ]; do
 power=$(cat /sys/class/gpio/gpio$GPIOpin1/value)
-if [ $power = 0 ]; then
+if [ $power = 1 ]; then
 sleep 1
 power=$(cat /sys/class/gpio/gpio$GPIOpin1/value)
 else

@@ -1,2 +1,5 @@
+1.0.1
+- Change pin 23 from normally low to normally high
+
 1.0.0
 - Initial version. Thanks to http://mausberrycircuits.com
