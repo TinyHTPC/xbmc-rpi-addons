@@ -1,3 +1,6 @@
+1.0.2
+- Added a kill signal to be transmitted to PiPUB on shutdown
+
 1.0.1
 - Change pin 23 from normally low to normally high
 
